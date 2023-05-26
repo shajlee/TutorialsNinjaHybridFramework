@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tutorials Ninja Suite" duration-ms="28636" started-at="2023-05-26T23:34:32Z" finished-at="2023-05-26T23:35:00Z">
+    <groups>
+    </groups>
+    <test name="Tutorials Ninja Test" duration-ms="28636" started-at="2023-05-26T23:34:32Z" finished-at="2023-05-26T23:35:00Z">
+      <class name="com.qa.ninja.testcases.Ninja_LandinPageTest">
+        <test-method status="PASS" signature="pageTitleandpageUrl()[pri:1, instance:com.qa.ninja.testcases.Ninja_LandinPageTest@15ff3e9e]" name="pageTitleandpageUrl" duration-ms="35" started-at="2023-05-26T23:34:55Z" finished-at="2023-05-26T23:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleandpageUrl -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_LandinPageTest -->
+      <class name="com.qa.ninja.testcases.Ninja_LoginPageTest">
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:1, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@5fdcaa40]" name="loginWithInvalidCredentials" duration-ms="912" started-at="2023-05-26T23:34:55Z" finished-at="2023-05-26T23:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_LoginPageTest -->
+      <class name="com.qa.ninja.testcases.Ninja_SearchTests">
+        <test-method status="PASS" signature="searchWithValidProduct()[pri:1, instance:com.qa.ninja.testcases.Ninja_SearchTests@5e0826e7]" name="searchWithValidProduct" duration-ms="1320" started-at="2023-05-26T23:34:56Z" finished-at="2023-05-26T23:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_SearchTests -->
+      <class name="com.qa.ninja.testcases.Ninja_CreateAnAccountTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@6dc17b83]" name="setUp" is-config="true" duration-ms="5626" started-at="2023-05-26T23:34:32Z" finished-at="2023-05-26T23:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_LandinPageTest@15ff3e9e]" name="setUp" is-config="true" duration-ms="3811" started-at="2023-05-26T23:34:38Z" finished-at="2023-05-26T23:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@5fdcaa40]" name="setUp" is-config="true" duration-ms="3984" started-at="2023-05-26T23:34:41Z" finished-at="2023-05-26T23:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_SearchTests@5e0826e7]" name="setUp" is-config="true" duration-ms="9334" started-at="2023-05-26T23:34:45Z" finished-at="2023-05-26T23:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationWithNoDetails()[pri:1, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@6dc17b83]" name="registrationWithNoDetails" duration-ms="736" started-at="2023-05-26T23:34:56Z" finished-at="2023-05-26T23:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithNoDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@6dc17b83]" name="tearDown" is-config="true" duration-ms="718" started-at="2023-05-26T23:34:58Z" finished-at="2023-05-26T23:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_LandinPageTest@15ff3e9e]" name="tearDown" is-config="true" duration-ms="622" started-at="2023-05-26T23:34:58Z" finished-at="2023-05-26T23:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@5fdcaa40]" name="tearDown" is-config="true" duration-ms="671" started-at="2023-05-26T23:34:59Z" finished-at="2023-05-26T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_SearchTests@5e0826e7]" name="tearDown" is-config="true" duration-ms="634" started-at="2023-05-26T23:35:00Z" finished-at="2023-05-26T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_CreateAnAccountTests -->
+    </test> <!-- Tutorials Ninja Test -->
+  </suite> <!-- Tutorials Ninja Suite -->
+</testng-results>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-26T16:32:34 PDT" name="Tutorials Ninja Suite" finished-at="2023-05-26T16:33:09 PDT" duration-ms="35107">
+    <groups>
+    </groups>
+    <test started-at="2023-05-26T16:32:34 PDT" name="Tutorials Ninja Test" finished-at="2023-05-26T16:33:09 PDT" duration-ms="35107">
+      <class name="com.qa.ninja.testcases.Ninja_LandinPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_LandinPageTest@712625fd]" started-at="2023-05-26T16:32:41 PDT" name="setUp" finished-at="2023-05-26T16:32:45 PDT" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleandpageUrl()[pri:1, instance:com.qa.ninja.testcases.Ninja_LandinPageTest@712625fd]" started-at="2023-05-26T16:32:53 PDT" name="pageTitleandpageUrl" finished-at="2023-05-26T16:32:53 PDT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleandpageUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_LandinPageTest@712625fd]" started-at="2023-05-26T16:33:07 PDT" name="tearDown" finished-at="2023-05-26T16:33:08 PDT" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_LandinPageTest -->
+      <class name="com.qa.ninja.testcases.Ninja_LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:45 PDT" name="setUp" finished-at="2023-05-26T16:32:49 PDT" duration-ms="4076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials()[pri:1, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:53 PDT" name="loginWithInvalidCredentials" finished-at="2023-05-26T16:32:54 PDT" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:2, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:54 PDT" name="loginWithValidUsernameInvalidPassword" finished-at="2023-05-26T16:32:55 PDT" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+        <test-method signature="loginWithInvalidUsernameValidPassword()[pri:3, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:55 PDT" name="loginWithInvalidUsernameValidPassword" finished-at="2023-05-26T16:32:56 PDT" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameValidPassword -->
+        <test-method signature="loginWithNoCredentials()[pri:4, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:56 PDT" name="loginWithNoCredentials" finished-at="2023-05-26T16:32:56 PDT" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:57 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:32:57 PDT" duration-ms="741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shajlee@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:57 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:32:58 PDT" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rifi_luver@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniqa1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:58 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:32:59 PDT" duration-ms="871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:32:59 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:33:00 PDT" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygsa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:33:00 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:33:00 PDT" duration-ms="668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:33:00 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:33:01 PDT" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nawshinaniqa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiyaan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:33:01 PDT" name="loginWithValidCredentials" data-provider="ninjaExcellDataWithDataProvider" finished-at="2023-05-26T16:33:02 PDT" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkcmono@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poultry13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_LoginPageTest@4c60d6e9]" started-at="2023-05-26T16:33:08 PDT" name="tearDown" finished-at="2023-05-26T16:33:09 PDT" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_LoginPageTest -->
+      <class name="com.qa.ninja.testcases.Ninja_SearchTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_SearchTests@4b29d1d2]" started-at="2023-05-26T16:32:49 PDT" name="setUp" finished-at="2023-05-26T16:32:53 PDT" duration-ms="4387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithValidProduct()[pri:1, instance:com.qa.ninja.testcases.Ninja_SearchTests@4b29d1d2]" started-at="2023-05-26T16:33:05 PDT" name="searchWithValidProduct" finished-at="2023-05-26T16:33:06 PDT" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProduct -->
+        <test-method signature="searchWithInvalidProduct()[pri:2, instance:com.qa.ninja.testcases.Ninja_SearchTests@4b29d1d2]" started-at="2023-05-26T16:33:06 PDT" name="searchWithInvalidProduct" finished-at="2023-05-26T16:33:07 PDT" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_SearchTests@4b29d1d2]" started-at="2023-05-26T16:33:09 PDT" name="tearDown" finished-at="2023-05-26T16:33:09 PDT" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_SearchTests -->
+      <class name="com.qa.ninja.testcases.Ninja_CreateAnAccountTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@1349883]" started-at="2023-05-26T16:32:34 PDT" name="setUp" finished-at="2023-05-26T16:32:41 PDT" duration-ms="6749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registrationWithNoDetails()[pri:1, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@1349883]" started-at="2023-05-26T16:33:02 PDT" name="registrationWithNoDetails" finished-at="2023-05-26T16:33:03 PDT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithNoDetails -->
+        <test-method signature="verifyRegistrationWithMandotaryFields()[pri:2, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@1349883]" started-at="2023-05-26T16:33:03 PDT" name="verifyRegistrationWithMandotaryFields" finished-at="2023-05-26T16:33:04 PDT" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithMandotaryFields -->
+        <test-method signature="verifyRegistrationWithAllFields()[pri:3, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@1349883]" started-at="2023-05-26T16:33:04 PDT" name="verifyRegistrationWithAllFields" finished-at="2023-05-26T16:33:04 PDT" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithAllFields -->
+        <test-method signature="registrationWithExistingEmailId()[pri:4, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@1349883]" started-at="2023-05-26T16:33:04 PDT" name="registrationWithExistingEmailId" finished-at="2023-05-26T16:33:05 PDT" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithExistingEmailId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ninja.testcases.Ninja_CreateAnAccountTests@1349883]" started-at="2023-05-26T16:33:07 PDT" name="tearDown" finished-at="2023-05-26T16:33:07 PDT" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ninja.testcases.Ninja_CreateAnAccountTests -->
+    </test> <!-- Tutorials Ninja Test -->
+  </suite> <!-- Tutorials Ninja Suite -->
+</testng-results>
